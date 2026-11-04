@@ -68,68 +68,6 @@ The recovery scenario is scheduled to check for resend requests every 15 minutes
 
 <img width="2624" height="2192" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/fda9f7d1-b13f-4a94-b52a-e4b42550850d" />
 
-```text
-Customer Email / Webhook
-          |
-          v
-   Gemini AI Analysis
-          |
-          v
-       JSON Parse
-          |
-          v
-    Priority Router
-     /     |     \
-   High  Medium   Low
-     \     |     /
-      Google Sheets
-          |
-          v
-     Gmail Notification
-          |
-          v
-    Update Email Status
-
-AI Request Failure
-          |
-          v
-       Wait 30 sec
-          |
-          v
-     Gemini Retry
-          |
-          v
-      JSON Parse
-          |
-          v
-      Retry Router
-          |
-          v
-   Priority Processing
-
-Gmail Failure
-          |
-          v
-   Update Existing Record
-       Not Sent
-          |
-          v
-   Manual Follow-up
-
-Manual Recovery Scenario
-          |
-          v
-   Search Resend Requests
-          |
-          v
-      Gmail Resend
-          |
-          v
-   Update Existing Record
-          |
-          v
-    Sent / No Follow-up
-```
 
 ## Business Benefits
 
