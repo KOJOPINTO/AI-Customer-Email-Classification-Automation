@@ -66,6 +66,8 @@ The recovery scenario is scheduled to check for resend requests every 15 minutes
 
 ## Workflow Architecture
 
+<img width="2624" height="2192" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/fda9f7d1-b13f-4a94-b52a-e4b42550850d" />
+
 ```text
 Customer Email / Webhook
           |
