@@ -114,5 +114,24 @@ Testing covered:
 
 This project demonstrates practical skills in AI integration, business process automation, API integration, workflow design, data management, error handling, and customer-support process improvement.
 
+## Project Screenshots
+
+### 1. Main Automation Workflow
+![Main Workflow](screenshots/01-main-workflow.png)
+
+### 2. AI Email Classification
+![AI Classification](screenshots/02-ai-classification.png)
+
+### 3. Priority Routing
+![Priority Routing](screenshots/03-priority-routing.png)
+
+### 4. Error Handling and Retry
+![Error Handling](screenshots/04-error-handling.png)
+
+### 5. Email Tracking
+![Email Tracking](screenshots/05-email-tracking..png)
+
+### 6. Manual Recovery
+![Manual Recovery](screenshots/06-manual-recovery.png)
 **Developer:** Solomon Pinto  
 **Focus:** AI Automation | Business Process Automation | Data Analytics | IT Support
