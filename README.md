@@ -8,6 +8,17 @@ It automatically analyzes incoming customer emails, classifies them by category,
 
 The system also includes retry handling, error logging, duplicate prevention, email status tracking, and a manual email recovery process.
 
+## Project Highlights
+
+- Built an AI-powered customer email classification workflow using Google Gemini.
+- Designed priority-based routing for High, Medium, and Low urgency inquiries.
+- Integrated Make.com, Google Sheets, and Gmail.
+- Implemented API retry handling and error logging.
+- Developed duplicate prevention and email status tracking.
+- Created a separate scheduled workflow for manual email recovery.
+
+**Core Skills Demonstrated:** AI Integration | API Integration | Workflow Automation | JSON Processing | Error Handling | Data Management
+
 ## Business Problem
 
 Businesses receive customer inquiries with different levels of urgency. Manually reviewing, prioritizing, and responding to every email can delay customer support and increase operational workload.
